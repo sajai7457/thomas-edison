@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thomas Edison Project</title>
+    <style>
+        #bot{  
+    border: 5px solid black;
+    padding: 5px;
+        }
+    </style>
+
+    <script> function changeImageOn(){
+        document.getElementById("bot").src="123.jpeg";
+    }
+    function changeImageOff(){
+        document.getElementById("bot").src="234.jpg";
+    }
+    </script>
+
+</head>
+
+<center>
+
+    <body>
+        <h1>Thomas Edison</h1>
+        <hr>
+        <img id="bot" onclick="changeImageOn()" src="https://www.greenelectricalsupply.com/images/products/detail/softwhitea19.PNG" alt="light bulb" width="225px" height="300px"/>
+        <br>
+        <br>
+        <input id="bot" onclick="changeImageOn()" type="button" value="Turn on the light"/>
+        <input id="bot" onclick="changeImageOff()" type="button" value="Turn off the light"/>
+    </body>
+
+</center>
+
+</html>
